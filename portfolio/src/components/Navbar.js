@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'
+import TocIcon from '@mui/icons-material/Toc'
 
 function Navbar() {
+  const [bigNav, setBigNav] = useState(false);
+
   return (
-    <div className='navbar'> 
+    <div className='navbar' id={setBigNav ? 'open' : 'close'}> 
         <div className='toggleSize'>
-            <button></button>
+            <button onClick={() => {setBigNav((prev) => !prev)}}>
+              <TocIcon />
+            </button>
         </div>
         <div className='links'>
             <Link to='/'> Home </Link>
