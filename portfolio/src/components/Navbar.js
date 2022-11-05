@@ -7,7 +7,7 @@ function Navbar() {
   const [bigNav, setBigNav] = useState(false);
 
   return (
-    <div className='navbar' id={setBigNav ? 'open' : 'close'}> 
+    <div className='navbar' id={bigNav ? 'open' : 'close'}> 
         <div className='toggleSize'>
             <button onClick={() => {setBigNav((prev) => !prev)}}>
               <TocIcon />
