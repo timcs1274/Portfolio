@@ -1,14 +1,14 @@
 import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GithubIcon from '@material-ui/icons/Github';
-import styles from '../styles/Footer.css'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import '../styles/Footer.css'
 
 function Footer() {
   return (
   <div className='footer'>
     <div>
         <LinkedInIcon />
-        <GithubIcon />
+        <GitHubIcon />
     </div>
     <p> &copy; 2022 TimSasse </p>
   </div>
