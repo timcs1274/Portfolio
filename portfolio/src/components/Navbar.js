@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import '../styles/Navbar.css'
 import TocIcon from '@mui/icons-material/Toc'
 
 function Navbar() {
   const [bigNav, setBigNav] = useState(false);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    setBigNav(false)
+  }, [location])
 
   return (
     <div className='navbar' id={bigNav ? 'open' : 'close'}> 
