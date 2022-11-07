@@ -1,11 +1,10 @@
 import React from 'react'
 
-function ProjectItem() {
+function ProjectItem({ image, name}) {
   return (
     <div className='projectItem'>
-        <div //img here
-        ></div>
-        <h1>Project 1</h1>
+        <div style={{backgroundImage: `url(${image})`}} className='projImg' />
+        <h1> {name} </h1>
     </div>
   )
 }
