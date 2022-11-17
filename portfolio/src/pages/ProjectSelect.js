@@ -13,7 +13,9 @@ function ProjectSelect() {
             {project.summary}
             <b>Technologies:</b> {project.technologies}
         </p>
-        <button>Source Code{project.link}</button>
+        <a href={project.link} target='_blank' style={{cursor: 'pointer'}} rel='noreferrer'>
+            <button>Source Code</button>
+        </a>
     </div>
   )
 }
