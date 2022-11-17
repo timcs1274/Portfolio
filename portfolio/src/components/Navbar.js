@@ -23,8 +23,7 @@ function Navbar() {
             <Link to='/'> Home </Link>
             <Link to='/projects'> Projects </Link>
             <Link to='/contact'> Contact </Link>
-            <Link //update link when resume file is added, must be in public folder
-            to="resumefilelocation" target="_blank" download>Resume</Link>
+            <Link to="https://drive.google.com/file/d/1Eq5M3yklsjk1AJoiM2YHhvmwlZrGl3HD/view?usp=sharing" target="_blank">Resume</Link>
         </div>
     </div>
   )
