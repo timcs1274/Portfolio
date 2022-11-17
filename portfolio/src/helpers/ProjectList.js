@@ -5,14 +5,23 @@ import project3 from '../assets/project3.png'
 export const ProjectList = [
     {
         name: 'Seven At One Blow',
-        image: project1
+        image: project1,
+        skills: '',
+        summary: '',
+        link: ''
     },
     {
         name: 'Date Night Bites',
-        image: project2
+        image: project2,
+        skills: '',
+        summary: '',
+        link: ''
     },
     {
         name: 'Note Taker',
-        image: project3
+        image: project3,
+        skills: '',
+        summary: '',
+        link: ''
     }
 ]
