@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';
+import '../styles/ProjectSelect.css';
 
 function ProjectSelect() {
     const { id } = useParams();
