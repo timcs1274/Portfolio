@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
-import { projectList } from '../helpers/ProjectList';
-import '../styles/Projects.css'
+import { ProjectList } from '../helpers/ProjectList';
+import '../styles/Projects.css';
 
 
 function Projects() {
@@ -9,8 +9,8 @@ function Projects() {
     <div className='projects'>
       <h1>My Projects</h1>
       <div className='projectList'>
-        {projectList.map(() => {
-          return <ProjectItem name ={projectList.name} image={projectList.image}/>
+        {ProjectList.map((project) => {
+          return <ProjectItem name ={project.name} image={project.image}/>
         })}
       </div>
     </div>
