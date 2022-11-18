@@ -4,22 +4,25 @@ import '../styles/Home.css'
 function Home() {
   return (
     <div className='home'>
-      <div className='about'>
-        <h2>Tim</h2>
+      <div className='title'>
+        <h2>Tim Sasse</h2>
         <div className='summary'>
-          <p>I like coding</p>
+          <p>Full Stack Web Developer</p>
         </div>
       </div>
       <div className='skills'>
-        <h1>My Skills</h1>
-        <ol className='skillList'>
+        <ol className='skillsList'>
           <li className='skillContent'>
             <h2>Front-End</h2>
-            <p>React</p>
+            <p>HTML, CSS, JavaScript, React.js, jQuery </p>
           </li>
           <li className='skillContent'>
             <h2>Back-End</h2>
-            <p>Node.JS</p>
+            <p>Node.JS, MongoDB, Mongoose, MySQL, Express, GraphQL</p>
+          </li>
+          <li className='skillContent'>
+            <h2>Other Skills</h2>
+            <p>GraphQL, Jest, PWAs, OOP, JWT, Git, CMD, Wordpress</p>
           </li>
         </ol>
       </div>

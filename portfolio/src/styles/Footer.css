@@ -1,7 +1,7 @@
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: var(--darkest);
     display: flex;
     justify-content: center;
@@ -13,8 +13,8 @@
   
   .footerIcons svg {
     color: var(--lightest);
-    margin: 10px;
-    font-size: 70px;
+    margin: 5px;
+    font-size: 60px;
   }
 
   .footerIcons :hover {
@@ -24,6 +24,7 @@
   
   .footer p {
     color: var(--lightest);
+    font-size: 20px;
   }
   
   @media only screen and (max-width: 600px) {
