@@ -20,7 +20,7 @@ function Navbar() {
             </button>
         </div>
         <div className='links'>
-            <Link to='/'> Home </Link>
+            <Link to='/Portfolio/'> Home </Link>
             <Link to='/projects'> Projects </Link>
             <Link to='/contact'> Contact </Link>
             <a href='https://drive.google.com/file/d/1Eq5M3yklsjk1AJoiM2YHhvmwlZrGl3HD/view?usp=sharing' target='_blank' style={{cursor: 'pointer'}} rel='noreferrer'>Resume</a>
