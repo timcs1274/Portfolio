@@ -58,7 +58,6 @@
     color: var(--darkest);
   }
   
-
   
   @media only screen and (max-width: 1300px) {
     .projects {
@@ -68,22 +67,22 @@
       grid-template-columns: 1fr 1fr;
     }
   }
-  
+    
   @media only screen and (max-width: 800px) {
-    .projects {
-      height: 1300px;
-    }
     .projectList {
       grid-template-columns: 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
       width: 100%;
     }
     .projectItem {
-      width: 300px;
-      height: 300px;
+      width: calc(275px);
+      height: calc(275px);
+      margin: 10px;
     }
+    .projects {
+      height: 1300px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    
   }
