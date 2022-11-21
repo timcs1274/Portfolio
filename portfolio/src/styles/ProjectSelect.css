@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,5 +42,46 @@ button {
 }
 
 button:hover {
-    border-color: aqua;
+    border-color: rgb(19, 199, 199);
 }
+
+@media only screen and (max-width: 950px) {
+  .project h1{
+    font-size: 35px;
+    margin-top: calc(50px - 10%);
+  }
+  .project img {
+    width: 500px;
+  }
+  .summary{
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .tech {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .project h1{
+    font-size: 35px;
+  }
+  .project img {
+    width: calc(100vw - 15%);
+  }
+  .summary{
+    font-size: 25px;
+    margin-right: calc(100vw - 90%);
+    margin-left: calc(100vw - 90%);
+  }
+  .tech{
+    margin-right: calc(100vw - 90%);
+    margin-left: calc(100vw - 90%);
+  }
+}
+
+
+@media only screen and (max-width: px) {}
