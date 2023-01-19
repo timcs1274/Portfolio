@@ -59,13 +59,16 @@
 #open .links {
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: -475px;
+    align-items: center;
+    width: 80%;
+    height: 80%;
 }
 
 #open a {
     width: 100%;
     text-align: center;
 }
+
 
 @media only screen and (max-width:900px) {
     .navbar a {
@@ -74,6 +77,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .links {
+        width: 100%;
+        text-align: center;
+    }
     .toggleSize {
         display: flex;
     }
@@ -82,20 +94,9 @@
     }
 }
 
+
 @media only screen and (min-width: 600px) {
     .toggleSize {
         display:none;
-    }
-
-    .hiddenLinks {
-        display: none;
-    }
-
-    #open {
-        height: 100px;
-    }
-
-    #open .links {
-        flex-direction: row;
-    }
+    }   
 }
