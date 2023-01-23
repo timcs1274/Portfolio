@@ -5,36 +5,36 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--dark);
+    background: linear-gradient(to top, var(--darkerGreen), var(--lightGreen));
   }
   
   .project h1 {
     margin-top: 50px;
-    color: var(--light);
+    color: var(--darkerGreen);
     font-size: 50px;
   }
 
   .project img {
-    width: 700px;
+    width: 600px;
     border-radius: 10px;
   }
   
 .summary {
-    color:var(--light);
+    color:var(--lightGreen);
     margin-right: 200px;
     margin-left: 200px;
 }
 
 .tech {
-    color: var(--light);
+    color: var(--lightGreen);
     font-size: 20px;
 }
 
 button {
-    border: 10px;
+    border: 10px var(--darkestGreen);
     border-style: double;
     border-radius: 15px;
-    background-color: var(--light);
+    background-color: var(--medGreen);
     cursor: pointer;
     font-size: 15px;
     font-weight: bolder;
@@ -42,7 +42,8 @@ button {
 }
 
 button:hover {
-    border-color: rgb(19, 199, 199);
+    border-color: var(--darkerGreen);
+    color: var(--darkGreen);
 }
 
 @media only screen and (max-width: 950px) {
