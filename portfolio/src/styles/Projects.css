@@ -5,11 +5,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--dark);
+    background: linear-gradient(to top, var(--darkerGreen), var(--lightGreen));
   }
   .projects h1{
     font-size: 60px;
-    color: var(--lightest);
+    color: var(--darkerGreen);
     text-decoration: underline;
   }
   .projects .projectTitle {
@@ -32,14 +32,14 @@
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-color: var(--lightest);
+    background-color: var(--lightGreen);
   }
 
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
-    background-color: var(--lightest);
+    background-color: var(--medGreen);
     transform:scale(1.25)
   }
   
@@ -55,7 +55,7 @@
   
   .projectItem h1 {
     font-size: 30px;
-    color: var(--darkest);
+    color:var(--darkGreen);
   }
   
   
