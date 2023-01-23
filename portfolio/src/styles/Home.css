@@ -13,20 +13,21 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: var(--dark);
-  color: var(--light);
+  background: linear-gradient(to top, var(--darkGreen), var(--lightGreen));
 }
 
 .title h2 {
   font-family: Garamond, serif;
   font-size: 90px;
-  color: var(--lightest);
+  color: var(--lighterGreen);
   height: 5px;
 }
 
 p {
   font-size: 30px;
   font-family: Garamond, serif;
+  color: var(--lightGreen);
+  /* box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2); */
 }
 
 .skills {
@@ -37,20 +38,26 @@ p {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: var(--lightest);
+  background: linear-gradient(to bottom, var(--darkGreen), var(--darkerGreen));
+}
+
+.skills p {
+  font-size: 30px;
+  font-family: Garamond, serif;
+  color: var(--lighterGreen);
 }
 
 .skillsList {
   display: inline-block;
   list-style: none;
   padding: 0;
-  color: var(--dark);
+  color: var(--medGreen);
   font-size: 30px;
 }
 
 
 .skillsList h2 {
-  text-decoration: underline var(--light);
+  text-decoration: underline var(--lightGreen);
 }
 
 @media only screen and (max-width: 800px) {
