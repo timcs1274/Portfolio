@@ -18,10 +18,10 @@ export const ProjectList = [
         link: 'https://github.com/timcs1274/date-night-bites'
     },
     {
-        name: 'Notes-Made-Easy',
+        name: "Pix-o'clock",
         image: project3,
-        technologies: 'HTML, CSS, JavaScript, Express, Local Storage',
-        summary: 'Notes-Made-Easy is a simple note taker which locally stores the users notes',
-        link: 'https://github.com/timcs1274/Notes-Made-Easy'
+        technologies: 'HTML, CSS, JavaScript, Express, Aseprite',
+        summary: 'A digital clock that dynamically displays the time of the user using custom pixelated art.',
+        link: 'https://github.com/timcs1274/Pixoclock'
     }
 ]
