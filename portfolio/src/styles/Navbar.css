@@ -86,11 +86,14 @@
     animation-fill-mode: both;
 }
 
-.animate-short {
+.animate.animate-short {
     animation-duration: .5s;
     animation-fill-mode: both;
 }
 
+.animate.animate--infinite {
+    animation-iteration-count: infinite;
+}
 
 /*Animations*/
 
