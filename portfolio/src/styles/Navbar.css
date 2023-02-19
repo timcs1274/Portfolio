@@ -37,14 +37,12 @@
 .navbar a {
     color: var(--lightest);
     text-decoration: none;
-    margin: 20px;
     font-size: 25px;
 }
 
 .toggleSize {
     width: 100%;
     height: 100%;
-    display: flex;
     align-items: center;
     justify-content: flex-end;
 }
@@ -67,16 +65,12 @@
 
 #open .links {
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
-#open a {
-    width: 100%;
-    text-align: center;
-}
+
 
 
 
@@ -126,22 +120,28 @@
 /*Screen Sizing*/
 @media only screen and (max-width:900px) {
     .navbar a {
-        width: 70px;
+        width: 80px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .navbar {
-        display: flex;
-        flex-direction: column;
+        display: inline-flex;
+        flex-direction:row-reverse;
 
     }
-    .links {
-        width: 100%;
-        text-align: center;
-    }
     .toggleSize {
-        display: flex;
+        display: inline-flex;
+        width: 15%;
+    }
+    .homeLink{
+        padding-bottom:30px;
+    }
+    .projLink{
+        padding-bottom: 30px;
+    }
+    .navbar a {
+        margin: 0;
     }
     #close a{
         display: none;
