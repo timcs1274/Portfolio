@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='title'>
-        <h2>Tim Sasse</h2>
+        <h2 animate animate--infinite bounce>Tim Sasse</h2>
         <div className='summary'>
           <p>Full Stack Web Developer</p>
         </div>
