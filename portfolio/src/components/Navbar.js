@@ -23,7 +23,7 @@ function Navbar() {
             <div className='homeLink animate animate--infinite bounce'><Link to='/Portfolio/'> Home </Link></div>
             <div className='projLink animate animate--infinite bounce'><Link to='/projects'> Projects </Link></div>
             {/* <Link to='/contact'> Contact </Link> */}
-            <a className="resumeLink animate animate--infinite bounce" href='https://drive.google.com/file/d/1Eq5M3yklsjk1AJoiM2YHhvmwlZrGl3HD/view?usp=sharing' target='_blank' style={{cursor: 'pointer'}} rel='noreferrer'>Resume</a>
+            <a className="resumeLink animate animate--infinite bounce" href='https://drive.google.com/file/d/1X-YK0frI7HKZEAEc4BBLO6wwtzTznp4D/view?usp=sharing' target='_blank' style={{cursor: 'pointer'}} rel='noreferrer'>Resume</a>
         </div>
     </div>
   )
